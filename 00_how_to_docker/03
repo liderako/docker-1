@@ -1,0 +1,2 @@
+# Проверить можно результат команды через "env | grep DOCKER"
+eval "$(docker-machine env Char)"
