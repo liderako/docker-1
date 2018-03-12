@@ -12,5 +12,5 @@ RUN tar xfvj teamspeak3-server_linux_amd64-3.0.13.8.tar.bz2
 EXPOSE 9987/udp 30033/tcp 10011/tcp 41144/tcp
 
 ENTRYPOINT sh ./teamspeak3-server_linux_amd64/ts3server_minimal_runscript.sh
-#then run in terminal docker -t -i ID start
+#then run in terminal docker run -t -i ID start
 # ID look at the ENTRYPOINT
