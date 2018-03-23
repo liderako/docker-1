@@ -1,1 +1,1 @@
-docker run -d=true --name lair -p 8080:50 --link spawning-pool:mysql wordpress
+docker run -d=true --name lair -p 80:8080 --link spawning-pool:mysql wordpress
